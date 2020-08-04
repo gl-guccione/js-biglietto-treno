@@ -12,7 +12,7 @@ var age = prompt("Inserire l'età"); // getting age
 var priceKm = 0.21; // base price
 
 
-// error if km or age NaN
+// error if km or age prompted is NaN
 if (isNaN(km)) {
   alert("Errore, i dati inseriti non sono validi");
   km = prompt("Inserire km da percorrere");
