@@ -9,9 +9,9 @@ var name = prompt("Inserire nome"); // getting name
 var surname = prompt("Inserire cognome"); // getting surname
 var km = prompt("Inserire km da percorrere"); // getting km
 var age = prompt("Inserire l'età"); // getting age
-var sconto;
-var d = new Date();
-var domani = d.getDate() + 1;
+var sconto; // declare sconto
+var d = new Date(); // getting date from user's pc
+var domani = d.getDate() + 1; // calculate tomorrow
 // console.log(km + " " + age);
 
 var priceKm = 0.21; // base price
