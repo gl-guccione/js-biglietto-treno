@@ -1,11 +1,78 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  padding-left: 50px;
+  margin: 0 8%;
+  font-size: 20px;
 }
 
-
-p {
-  font-size: 25px;
+header {
+  display: flex;
+  height: 120px;
+  width: 84%;
+  position: fixed;
+  top: 0;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #b3b3b3;
+  background-color: #fff;
 }
+header img {
+  height: 60%;
+}
+
+header + * {
+  margin-top: 140px;
+}
+
+section {
+  margin-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 3px dotted #b3b3b3;
+}
+section > div {
+  position: relative;
+}
+
+main > h2 {
+  text-align: center;
+}
+
 span {
+  color: red;
+  font-weight: bold;
+}
+
+a {
+  margin-left: 10px;
+  text-decoration: none;
+  padding: 10px 15px;
+  background-color: green;
+  color: #fff;
+  border-radius: 3px;
+}
+
+#name {
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+#surname {
+  text-transform: capitalize;
+}
+#sconto {
+  font-size: 12px;
+  position: absolute;
+  bottom: -40px;
+  right: 0;
+
+}
+#clock {
+  color: green;
   text-decoration: underline;
 }

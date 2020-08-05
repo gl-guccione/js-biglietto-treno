@@ -7,12 +7,38 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <h2>Calcola il costo del biglietto inserendo tutte le informazioni richieste.</h2>
-
-    <p>
-      Il prezzo del suo biglietto è: <span id="total-price"></span>
-    </p>
-
+    <header>
+      <img src="img/index.png" alt="logo trenitalia">
+      <div>Oggi è il <span id="clock"></span></div>
+    </header>
+    <main>
+      <h2>Calcola il costo del biglietto inserendo tutte le informazioni richieste.</h2>
+      <section>
+        <!-- nome + cognome -->
+        <div>
+          <h2 id="name"></h2>
+          <h3 id="surname"></h3>
+        </div>
+        <!-- /nome + cognome -->
+        <!-- data -->
+        <div>
+          <p id="date"></p>
+        </div>
+        <!-- /data -->
+        <!-- km -->
+        <div>
+          <p id="km"></p>
+        </div>
+        <!-- /km -->
+        <!-- prezzo -->
+        <div>
+          <span id="total-price"></span>
+          <a href="#">Acquista</a>
+          <span id="sconto"></span>
+        </div>
+        <!-- /prezzo -->
+      </section>
+    </main>
 
     <script src="js/script.js" charset="utf-8"></script>
   </body>
